@@ -1,0 +1,84 @@
+.icon-bar {
+    background-color: white;
+}
+
+@media screen and (max-width:800px) {
+    html {
+        overflow: hidden;
+        width: 100%;
+    }
+
+}
+
+
+
+
+body {
+    background-image: url("images/red-cross.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+@media screen and (max-width:800px) {
+    body {
+        background-image: url("images/red-cross.jpg");
+        background-size: cover;
+        height: 800px;
+    }
+}
+
+
+
+.footer {
+    position: fixed;
+    color: gray;
+    text-align: center;
+}
+
+.main_1 {
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+#donate {
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 8px 20px 0 rgba(255, 255, 255, 0.637), 0 8px 10px 0 rgba(255, 255, 255, 0.851);
+
+}
+
+/* .Pay-button {
+    margin-left: 400px;
+    margin-top: 200px;
+    width: 200px;
+    
+}
+
+@media screen and (max-width:800px) {
+    .Pay-button {
+        margin-left: 100px;
+        margin-top: 80px;
+        width: 200px;
+        box-shadow: rgba(255, 255, 255, 0.637), 0 8px 10px 0 rgba(255, 255, 255, 0.851);
+    }
+} */
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+html {
+    overflow: hidden;
+}
